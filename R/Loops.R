@@ -42,4 +42,33 @@ while (x <= 100) {
   }
   x <- x + 1
   
-}
+
+x <- 1
+while (x <= 100) {
+  if (x >= 1 && x <= 29) {
+    newGrade <- paste("The grade is F")
+    print(newGrade)
+  }
+  if (x >= 30 && x <= 39) {
+    newGrade <- paste("The grade is E")
+    print(newGrade)
+  }
+  if (x >= 40 && x <= 49) {
+    newGrade <- paste("The grade is D")
+    print(newGrade)
+  }
+  if (x >=50 && x <= 59) {
+    newGrade <- paste("The grade is C")
+    print(newGrade)
+  }
+  if (x >=60 && x <= 69) {
+    newGrade <- paste("The grade is B")
+    print(newGrade)
+  }
+  if (x >= 70 && x <= 100) {
+    newGrade <- paste(" The grade is A")
+    print(newGrade)
+  }
+  x <- x + 1
+
+

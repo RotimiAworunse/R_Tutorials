@@ -48,3 +48,21 @@ if ( numberOfOranges >= numberOfApples) {
 # } else {
 #  statement
 # }
+
+# Problem
+
+PetalsLength = 43
+PetalsWidth = 23
+SeptalLength = 52
+SeptalWidth = 25
+
+if (PetalsLength > SeptalLength) {
+  if (PetalsWidth < SeptalWidth) {
+    print("Petals Length is greater than Septal but the width is less than septals width")
+  } else {
+    print("The width and the length of petals are greater than Septals")
+  }
+} else {
+  print("SeptalLength is greater than Petals Length")
+}
+
